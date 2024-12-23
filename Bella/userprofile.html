@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <title>Profile Menu</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="header">
+            <nav>
+                 <img src="img.png" alt="" width="88px" class="logo">  
+                <!-- <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul> -->
+                 <img src="images/img.png" alt="" class="user-pic" onclick="toggleMenu()"> 
+                <!-- supmenu -->
+                <div class="submenu-wrapper" id="subMenu">
+                    <div class="submenu">
+                        <div class="user-info">
+                            <img src="static/images\img.png" alt="img">
+                            <h3>Lana Amr</h3>
+                        </div>
+                        <hr/>
+
+                        <a href="#" class="submenu-link">
+                            <i class="fa fa-user-o"></i>
+                            <p>Edit Profile</p>
+                            <span>></span>
+                        </a>
+
+                        <a href="#" class="submenu-link">
+                            <i class="fa fa-comments-o"></i>
+                            <p>Message</p>
+                            <span>></span>
+                        </a>
+
+                        <a href="#" class="submenu-link">
+                            <i class="fa fa-cog"></i>
+                            <p>Settings</p>
+                            <span>></span>
+                        </a>
+
+                        <a href="#" class="submenu-link">
+                            <i class="fa fa-info-circle"></i>
+                            <p>Help</p>
+                            <span>></span>
+                        </a>
+
+                        <a href="#" class="submenu-link">
+                            <i class="fa fa-sign-out"></i>
+                            <p>Logout</p>
+                            <span>></span>
+                        </a>
+
+
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+        <script>
+            let submenu = document.getElementById("subMenu");
+
+            function toggleMenu(){
+                submenu.classList.toggle("openMenu");
+
+            }
+
+        </script>
+
+    </body>
+
+</html>

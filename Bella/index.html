@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8327855e19.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Bella Cosmetics</title>
+</head>
+
+<body>
+
+    <!-- HOME PAGE HTML -->
+    <header >
+        <a href="#" class="logo">BELLA</a>
+        <nav class="navi">
+            <a href="#Home">Home</a>
+            <a href="#categories">All Categories</a>
+            <a href="#about">About US</a>
+            <a href="#contact">Contact</a>
+            <a href="signup.html">Account</a>
+        </nav>
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+          </div>
+          <img src="static/images/img.png" alt="" class="user-pic" onclick="toggleMenu()"> 
+          
+          <!-- supmenu -->
+          <div class="submenu-wrapper" id="subMenu">
+              <div class="submenu">
+                  <div class="user-info">
+                      <img src="static/images/img.png" alt="img">
+                      <h3>Lana Amr</h3>
+                  </div>
+                  <hr/>
+
+                  <a href="#" class="submenu-link">
+                      <i class="fa fa-user-o"></i>
+                      <p>Edit Profile</p>
+                      <span>></span>
+                  </a>
+
+                  <a href="#" class="submenu-link">
+                      <i class="fa fa-comments-o"></i>
+                      <p>Message</p>
+                      <span>></span>
+                  </a>
+
+                  <a href="#" class="submenu-link">
+                      <i class="fa fa-cog"></i>
+                      <p>Settings</p>
+                      <span>></span>
+                  </a>
+
+                  <a href="#" class="submenu-link">
+                      <i class="fa fa-info-circle"></i>
+                      <p>Help</p>
+                      <span>></span>
+                  </a>
+
+                  <a href="#" class="submenu-link">
+                      <i class="fa fa-sign-out"></i>
+                      <p>Logout</p>
+                      <span>></span>
+                  </a>
+          </div>
+          </div>
+    
+    </header>
+    <section class="main">
+        <div class="content">
+            <h3>Reveal The Beauty Of Your Skin</h3>
+            <span>Made using natural products</span>
+            <p>Nothing makes a woman more beautiful than the belief that she's beautiful.</p>
+            <a href="#categories" class="btn">Shop Now</a>
+        </div>
+    </section>
+    <!-- CATEGORIES US CODE HTML -->
+    <section id="categories" class="categories">
+        <h2 class="title">Shop By Category</h2>
+    </section>
+    <section class="index-category">
+        <a href="bodycare.html" class="index-category-box">
+            <div class="dark-overlay"></div>
+            <h3>Body Care</h3>
+        </a>
+
+        <a href="facecare.html" class="index-category-box">
+            <div class="dark-overlay"></div>
+            <h3>Face Care</h3>
+        </a>
+
+        <a href="haircare.html" class="index-category-box">
+            <div class="dark-overlay"></div>
+            <h3>Hair Care</h3>
+        </a>
+
+        <a href="cosmetics.html" class="index-category-box">
+            <div class="dark-overlay"></div>
+            <h3>Cosmetics</h3>
+        </a>
+    </section>
+   
+    <!-- ABOUT US HTML CODE -->
+    <section id="about">
+        <h2 class="title">About Us</h2>
+    </section>
+    <section class="about">
+        <div class="content">
+            <span>Why Choose Us?</span>
+            <h3>Skincare makes difference</h3>
+            <p>
+                Skincare products are used to cleanse, nourish, and protect your skin.They can help to treat a variety
+                of skin conditions, such as acne, eczema, and psoriasis.They can also help to improve the appearance of
+                your skin by reducing wrinkles, fine lines, and dark spots.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+    </section>
+
+    <!-- FOOTER HTML CODE -->
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#">shop</a></li>
+                        <li><a href="#">message</a></li>
+                        <li><a href="#">blogs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>extra links</h4>
+                    <ul>
+                        <li><a href="#">My Favorite</a></li>
+                        <li><a href="#">My order</a></li>
+                        <li><a href="#">My wishlist</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">terms of use</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>newsletter</h4>
+                    <ul>
+                        <form action="">
+                            <input type="email" name="" placeholder="email address" id="" class="email">
+                            <input type="submit" value="subscribe" id="subscribe" class="btn">
+
+                        </form>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>contact me</h4>
+                    <div class="social-links">
+
+                        <a class="link" href="#"><i class="fa-solid fa-phone"></i>+111222456</a>
+                        <br> <br>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="static/js/script1.js"></script>
+</body>
+
+</html>
